@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*2 columnas de igual de ancho */
+    grid-template-rows: auto auto;
+    /* 2 filas automaticas */
+    gap:15px;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.item{
+    background: #21Ff21;
+    color: beige;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 20px;
+    border-radius: 6px;
+}
