@@ -1,0 +1,13 @@
+.boton{
+    background-color: royalblue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3 ease-in-out;
+}
+
+.boton:hover{
+    background-color: orangered;
+}
