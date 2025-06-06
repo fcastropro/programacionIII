@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Documento object model - Dom</title>
+        <style>
+            .boton {
+                padding: 10px;
+                background-color: blue;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Eventos Inline</h1>
+        <button class="botton" onclick="alert('Hola')">click</button>
+        <br>
+        <button onclick="mostrarAlerta()">Mostrar Alerta</button>
+        <br>
+        <button onclick="agregarProducto()">Agregar producto</button>
+        <br>
+        <br>
+        <ul id="listaProductos1"></ul>
+        <h1>Eventos por addEventLister</h1>
+        <button id="boton">Haz clic</button>
+        <br>
+        <button id="btnAgregar">Agregar producto</button>
+        <ul id="listaProductos2"></ul>
+        <script src="js/dom05-eventos.js"></script>
+    </body>
+</html>
